@@ -1,0 +1,18 @@
+body {
+               
+    background-image:url("../images/טפט5.jpg")
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-size:20px;
+}
+ul.topnav li a {
+    color: gray;
+}
+iframe{
+    width:100%;
+    height: 80%;
+    border-style: none;
+    
+  }

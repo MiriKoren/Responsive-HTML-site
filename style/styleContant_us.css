@@ -1,0 +1,46 @@
+body{
+    background-image: url("../images/product1617_image1_2020-06-24_17-50-38.jpg");
+    background-repeat: no-repeat;
+} 
+form{
+  height: 80%;
+  width: 30%;
+  background-color: black;
+  opacity: 0.8;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+form input{
+  padding-right:5%;
+  display: flex;
+  justify-content:space-around;
+  height: 12%;
+  margin-top: 20px;
+  width: 80%;
+ font-size: 125%;
+  font-family: calibri;
+}
+input:first-child{
+  margin-top: 10%;
+}
+input[type="textbox"]{
+  height: 20%;
+}
+input[type="submit"]{
+  text-align: center;
+ margin-top: 10%;
+background-color:burlywood;
+ width: 50%;
+ }
+  @media screen and (max-width:800px) {
+    form{
+      width:60%;
+      margin-right: 20%;
+    }
+      
+      }
+  
+ 

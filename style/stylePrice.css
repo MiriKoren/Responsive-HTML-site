@@ -1,0 +1,17 @@
+ tr:first-child {
+ background-color: gainsboro;
+}
+table {
+  text-align: center;
+  margin-right: 20%;
+  border-collapse: collapse;
+  width: 50%;
+  height: 80%;
+}
+
+th,td{
+ border:solid black 1px;
+}
+ tr:nth-child(odd){
+     background-color: gainsboro;
+ }
